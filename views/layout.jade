@@ -15,19 +15,33 @@ html
 
     link(rel="icon", href= records.site.sitedata[0].icon, type="image/*")
     link(rel="shortcut icon", href= records.site.sitedata[0].icon, type="img/*")
-
+    link(href='https://fonts.googleapis.com/css?family=Nunito:200,300,400', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Oswald', rel='stylesheet')
+    link(rel='stylesheet', href='http://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css', type='text/css')
+    link(type='text/css', rel='stylesheet', href='/css/webriq-bootstrap-material-ui.min.css', media='screen,projection')
+    link(rel='stylesheet', href='/css/font-awesome.min.css')
+    link(rel='stylesheet', href='/css/hover.css')
+    link(rel='stylesheet', href='/css/lightbox.min.css')
+    link(rel='stylesheet', href='/css/sidenav.min.css') 
+    link(rel='stylesheet', href='/css/style2.css')
+    link(rel='stylesheet', href='/css/style3.css')
 
     <!-- Custom CSS -->
     != css()
 
+    body#page-top.homelayout
+      div#main.main
+        if _path == "/index.html"
+            include includes/header
+        else
+            include ./includes/headerblog
 
-  body#page-top
+      div.main-container
+        block content
 
-    div.main
-      include includes/header
 
-    div.main-container
-      block content
-
-    div.footer
-      include includes/footer
+      div.footer
+        if _path == "/index.html"
+            include includes/footer
+        else
+            include ./includes/footerblog

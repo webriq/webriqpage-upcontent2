@@ -1,8 +1,10 @@
 extends layout
 
 block content
-  article.box.page
+  #list-blog
     .container
-      header
-        h2= entry.title
-      != entry.body
+      #bodyblog
+        header
+          h2.inner-blg-ttle= entry.title
+          p.inner-blg-shrtdesc= entry.shortdesc
+          p.blog-body-inner= entry.body

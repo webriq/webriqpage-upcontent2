@@ -1,3 +1,133 @@
 extends layout
 
 block content
+   
+    div#health-and-safety
+      div#aboutdailmore.section
+          .container
+              .row
+                  .col-md-6.text-left.detabout_left
+                      div.imgtablet(style="display:none;")
+                        img(src="../img/hendry-about-img-circle.png")
+                      div.breaker
+                          h4 Health and safety training courses
+                          h5.subttle-2 in North Lanarkshire, Scotland                      
+                          p.dets
+                              | At Graham Hendry Training & Consultancy Services we offer bespoke training courses for businesses in Scotland and UK-wide. Talk to our team to find out which training courses suit your business requirements.
+                          div.btnenqr
+                            a(href="mailto:mail@hendry-training.co.uk") ENQUIRE NOW!
+                  .col-md-6.text-center.detabout_img
+                      img(src="../img/about-right-img.jpg")
+
+    div#services2.section
+        .container
+            h3.titlesevces Professional training courses
+            p.subttleserv Based in Central Scotland, we provide face-to-face health, safety and security training courses. At Graham Hendry Training & Consultancy Services, we have over 16 years of hands-on experience providing training in health and safety and security to operatives, supervisors and managers. We also provide competent and professional advice on all matters regarding health, safety and security across Edinburgh, Glasgow, Motherwell, Dundee and the North of England.
+
+            h4.coursesincld Some of our training courses include:
+            .row
+              .col-md-3.col-sm-6.col-xs-6.servc1
+                  img(src="../img/services-icon1.png")
+                  div.detservc
+                      h4  IOSH training 
+                        br
+                        | modules
+              .col-md-3.col-sm-6.col-xs-6.servc2.servhiddn
+                  img(src="../img/services-icon2.png")
+                  div.detservc
+                      h4 Security training
+                        br
+                        | courses
+              .col-md-3.col-sm-6.col-xs-6.servc3.servhiddn
+                  img(src="../img/services-icon3.png")
+                  div.detservc
+                      h4 Conflict
+                        br
+                        | Resolution
+              .col-md-3.col-sm-6.col-xs-6.servc4.servhiddn
+                  img(src="../img/services-icon4.png")
+                  div.detservc
+                      h4 Accredited 
+                        br
+                        | e-learning courses
+            div
+              p.trainingmore-serv.expand
+                | Our tailor-made training courses are compliant with all relevant legislation and British or European Standards, and are designed in conjunction with National Occupational Standards (NOS) applicable to the task and industry.
+                br
+                br
+                | We provide advice and guidance on all matters regarding health & safety practices and security arrangements that include manpower and technology, with a view to ensuring compliance with the law, British and European Standards, industry-specific standards and management systems (ISO9001, ISO14001 & OHSAS18001).
+     
+    div#coursesoffer.section
+      div.container-fluid
+        div.row
+          div.col-md-4.clsstrng
+            img(src='../img/courses-1.png')
+            .detcours
+              img(src="../img/training.png")
+              h4 Classroom training
+              p.det
+                | We provide one-day and up to four-day classroom based training courses to individuals and businesses...
+              p.enqr
+                a(href="mailto:mail@hendry-training.co.uk") ENQUIRE NOW!
+          div.col-md-4.elearng
+            img(src='../img/courses-2.png')
+            .detcours
+              img(src="../img/e-learning.png")
+              h4 Accredited e-learning
+              p.det
+                | If you are unable to attend our classroom training courses, sign up for our array of e-learning courses...
+              p.enqr
+                a(href="mailto:mail@hendry-training.co.uk") ENQUIRE NOW!
+          div.col-md-4.afftrang
+            img(src='../img/courses-3.jpg')
+            .detcours
+              img(src="../img/affordable-training.png")
+              h4 Affordable training
+              p.det
+                | Undertake industry approve training courses at affordable prices from our experienced trainers today!...
+              p.enqr
+                a(href="#map") CONTACT US!
+          div#recrtrs-bg.col-md-12.recrtrs
+            .detcours2
+              img(src="../img/customer-service.png")
+              h4 Recruitment services
+              p.det
+                | Attracting, selecting and appointing the right candidates for the job can be laborious, expensive and time-consuming. With our recruitment service, we are on hand to source candidates for you who are job-ready, competent, qualified and have the right skills and attitude. Due to government incentives, this service can be provided free-of-charge, and can sometimes provide financial reward for the employer and the employee.
+              p.enqr
+                a.hvr-ripple-out(href="#map") Talk To Us!
+
+    div#blogsec.section
+      div.container.text-center
+        h1.title-header OUR BLOG
+        h5.sub See our blogs for more details on how we can help you improve business..
+        hr
+        .container.news-item
+          each blogss in blog.orderBy('date', 'desc').slice(0, 3)
+            div.col-md-4.text-center 
+              .news-items          
+                div.lead-sec
+                  .lead-image
+                    img.img-responsive(src=blogss.thumbnail)
+                  h5.lead-tag= blogss.leadtag
+
+                div.blog-det 
+                  h3.blog-title
+                    a(href=blogss.permalink)= blogss.title
+                  .published
+                    i(class="fa fa-clock-o", aria-hidden="true")
+                    date= dateFormat(blogss.date, 'dddd, LL')
+                  .short-desc
+                    p= blogss.shortdesc
+                    p.read-more
+                      a(href=blogss.permalink)                         
+                        | Read More   
+                        i.fa.fa-long-arrow-right(aria-hidden='true')
+
+
+        div#more-blog.section
+          div.more-img
+            a.more-blog-btn.hvr-ripple-out(href="/blog-list.html")
+              img(src="img/blog/more-blog.png")
+
+    section#maps
+      div#map 
