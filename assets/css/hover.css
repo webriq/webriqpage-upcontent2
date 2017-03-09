@@ -2009,7 +2009,7 @@
 .more-blog-btn.hvr-ripple-out:before {
   content: '';
   position: absolute;
-  border: #0092d5 solid .5px;
+  border: #FFC400 solid .5px;
   border-radius:60px;
   top: 0;
   right: 0;
@@ -2021,7 +2021,6 @@
 .hvr-ripple-out:before {
   content: '';
   position: absolute;
-  border: #e1e1e1 solid 1px;
   border-radius:60px;
   top: 0;
   right: 0;

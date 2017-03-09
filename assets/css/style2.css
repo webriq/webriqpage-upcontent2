@@ -44,8 +44,8 @@ h2, h3, h4 {
   padding:0px
 }
 .containerheader.shrink .navbar.navbar-default.home{
-  background:#1e6798 !important;
   box-shadow: 10px 0px 1px !important;
+  background:linear-gradient(260deg,#ffeb3b,#ffc837);
   width: 100%;
   display: block;
   padding: 0px 0px;
@@ -130,16 +130,16 @@ h2, h3, h4 {
 }
 #sliderhead .text-det h4{
   font-size:20px;
-  color:#beebff;
+  color: #ffffff;
   font-weight:lighter;
   letter-spacing:1px;
   margin-top:20px !important;
   padding:0px 220px;
-  line-height:1.5em
+  line-height:1.5em;
 }
 #sliderhead .text-det h4:before{
   content:"";
-  border:solid #32acff 1px;
+  border: solid #ffe500 1px;
   display:block;
   opacity:.3;
   width:50px;
@@ -159,13 +159,11 @@ h2, h3, h4 {
 }
 
 .booknw {
-  border:solid 2px #fff;
   border-radius:55px;
   padding:14px 40px;
   margin-top:35px;
   margin-bottom:50px;
-  color:#fff;
-  font-size:18px; 
+  font-size:18px;
   font-weight:bold;
 } 
 #sliderhead .scrolldwn {
@@ -176,12 +174,10 @@ h2, h3, h4 {
 }
 #sliderhead .scrolldwn a  {
   font-size:11px;
-  color:#fff;
+  color: #000;
 }
 #sliderhead .booknw2 a:hover  {
-  color:#333 !important;
-  text-decoration:none !important; 
-  background:#fff;
+  text-decoration:none !important;
   transition:.3s;
 } 
 #sliderhead .scrolldwn a .fa{
@@ -201,7 +197,7 @@ h2, h3, h4 {
 }
 #aboutdailmore h4:after {
     content: "";
-    border: solid #4d689e 1px;
+    border: solid #3a3a3a 1px;
     display: block;
     width: 50px;
     margin: 35px auto 25px 0;
@@ -235,8 +231,8 @@ h2, h3, h4 {
 }
 .btnenqr a:hover {
   text-decoration:none;
-  color:#1e6798;
-  border:solid #1e6798 2px;
+  color: #ffe93b;
+  border: solid #ffe93b 2px;
 } 
 
 
@@ -466,7 +462,7 @@ h2, h3, h4 {
 
 /*footer*/
 #copyright {
-  background: #e0e4ea url(../img/footer-bg.png)no-repeat bottom;
+  background: #181818 url(../img/footer-bg.png)no-repeat bottom;
   padding:40px 0px 0px;
 }
 #copyright .container {
@@ -475,12 +471,12 @@ h2, h3, h4 {
 #copyright .container h4{
   font-size:20px;
   font-weight:bold;
-  color:#3b3e42;
-  margin-bottom:30px
+  margin-bottom:30px;
+  color: #fff;
 }
 #copyright .container .det {
   font-size:16px;
-  color: #676767;
+  color: #ffffff;
   padding:0px 80px 0px 0px;
 }
 .quicklnks .lnks {
@@ -524,7 +520,7 @@ h2, h3, h4 {
 
 .breakr {
   padding:20px 0px;
-  border-top: solid 1px #ececec;
+  border-top: solid 1px rgba(255, 196, 0, 0.25);
   margin-top:30px;
 }
 .breakr a{
@@ -534,12 +530,12 @@ h2, h3, h4 {
   border-radius:50%;
 }
 #copyright .col-md-12 {
-  border-top: solid 1px rgba(0, 0, 0, 0.09);
+  border-top: solid 1px rgba(255, 196, 0, 0.25);
   margin-top:50px;
   padding:30px 0px 10px;
 }
 #copyright .col-md-12 p{
-  color:#000000;
+  color: #ffffff;
   font-weight:300;
   font-size:15px;
 }
@@ -1099,17 +1095,18 @@ h2, h3, h4 {
 #blogsec h1 {
   font-size:24px;
   font-weight:bold;
+  color: #fff;
 }
 #blogsec h1:after {
     content: "";
-    border: solid #d3d7d8 1px;
+    border: solid #ffffff 1px;
     display: block;
     width: 30px;
     margin: 30px auto 20px;
 }
 #blogsec {
     padding:40px 0px 90px;
-    background:#e8e8e8;
+    background: #90A4AE;
 }
 #blogsec .container.news-item{
     padding:0px;
@@ -1121,8 +1118,8 @@ h2, h3, h4 {
   padding:4px;
 }
 #more-blog .more-img a {
-  border:solid 1px #2196f3;
-  border-radius:50%
+  border: solid 1px #FFC400;
+  border-radius:50%;
 }
 #blogsec .sub {
     margin-bottom:50px;
@@ -1255,24 +1252,24 @@ h2, h3, h4 {
     color:#fff;
 }
 .news-item .read-more a:hover{
-    background-color:#ddd !important;
+    background-color: #ffe23a !important;
     color:#333 !important;
     text-decoration:none;
 }
 .news-item .col-md-4:nth-child(1) .read-more a{
-    background-color:#60a0d7
+    background-color: #a47aff;
 }
 .news-item .col-md-4:nth-child(2) .read-more a{
-    background-color:#60a0d7
+    background-color: #44a1de;
 }
 .news-item .col-md-4:nth-child(3) .read-more a{
-    background-color:#60a0d7
+    background-color: #3d8856;
 }
 .news-item .read-more a .fa{
     margin-left:2px !important;
 }
 #blogsec .sub {
-    color: #828282;
+    color: #fff;
     font-size: 16px;
     margin-top: 30px;
     line-height: 30px;
@@ -1458,11 +1455,11 @@ body #list-blog .container{
   position:absolute;
   top:0;
   right:0;
-  background:rgba(4,4,4,.5);
+  background: rgb(255, 201, 55);
   margin:0;
   font-size:16px;
   padding:10px 20px;
-  color:#fff
+  color:#fff;
 }
 #list-allblog .published  {
   margin-bottom:15px !important;
@@ -1473,7 +1470,7 @@ body #list-blog .container{
 } 
 #list-allblog .short-desc .read-more a{
   padding:10px 35px;
-  background:#1e6798;
+  background: #ffc937;
   color:#fff;
   border-radius:30px;
 }
@@ -1567,7 +1564,7 @@ body #list-blog .container{
   padding:0px 0px 10px 15px;
 }
 #list-allblog .right-list .more-ttle-head {
-  background:#1e6798 !important;
+  background: #ffc937 !important;
   padding:5px 0px;
 }
 #list-allblog .right-list .more-ttle-head .ttle-post{
@@ -1617,6 +1614,10 @@ body #list-blog .container{
 }
 #bodyblog strong {
   font-weight:bold;
+}
+.bloglayout .social-header-topright li a:hover{
+  background: #FFAB00;
+  color: #FFF;
 }
 
 

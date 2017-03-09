@@ -69,11 +69,12 @@
 }
 .resrv {
     padding:35px 10px 0px;
-    font-size:13px;
-    color:#858d92 !important;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FF9800 !important;
 }
 .logonav {
-    padding:20px 40px 0px;
+    padding: 20px 55px 0px;
 }
 .logonav img{
     width:100%;
@@ -94,46 +95,28 @@
     text-decoration:none;
 }
 .sidenav-menu {
-    padding:20px 40px  0px;
-    text-align:left;    
+    /* padding:20px 40px  0px; */
+    text-align:left;
 }
 .sidenav-menu li{ 
     padding:9px 0px;
     list-style:none;
 }
-.sidenav-menu li a{ 
-    color:rgb(255, 255, 255) !important;
-    font-size:18px;
-    font-weight:300 !important;
-    line-height:1em; 
+.sidenav-menu li a{
+    color: #181818;
+    font-size: 20px;
+    font-weight: bold;
+    line-height:1em;
 }
-.sidenav-menu li a:hover{ 
-    color:#2681bd  !important;
+.sidenav-menu li a:hover{
+    color: #FF9800  !important;
     text-decoration:none;
 }
 .sidenav-no-scroll #sliderhead {
     padding: 200px 0px 120px;
     background: url(../img/header-hendy-bg.jpg) ; 
 } 
-.sidenav { 
-background: #141E30; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #141E30 , #243B55); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #275371  , #153246 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
-    box-shadow: 2px 2px 5px rgba(91, 123, 125, 0.3);
-    display: block;
-    font-size: 16px;
-    font-weight: 400;
-    height: 100%;
-    left: 0;
-    position: fixed;
-    overflow: auto;
-    transform: translate(-306px, 0);
-    transition: transform .4s;
-    top: 0;
-    width: 306px;
-    z-index:10100000000000 !important;
-}
+.sidenav {background: #141E30; /* fallback for old browsers */background: -webkit-linear-gradient(to left, #141E30 , #243B55);background: #fff;box-shadow: 2px 2px 5px rgba(91, 123, 125, 0.3);display: block;font-size: 16px;font-weight: 400;height: 100%;left: 0;position: fixed;overflow: auto;transform: translate(-306px, 0);transition: transform .4s;top: 0;width: 306px;z-index:10100000000000 !important;}
 .sidenav.show {
     transform: translate(0, 0);
     overflow-x:hidden;

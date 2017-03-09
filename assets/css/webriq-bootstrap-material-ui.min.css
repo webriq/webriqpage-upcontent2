@@ -8460,13 +8460,13 @@ textarea {
     line-height: inherit
 }
 a {
-    color: #2196F3;
-    text-decoration: none
+    color: #ff0000;
+    text-decoration: none;
 }
 a:focus,
 a:hover {
-    color: #0a6ebd;
-    text-decoration: underline
+    color: #FFC400;
+    text-decoration: underline;
 }
 a:focus {
     outline: dotted thin;
