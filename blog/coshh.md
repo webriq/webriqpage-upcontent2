@@ -4,10 +4,10 @@ author: Lorem ipsum
 leadtag: Blog
 thumbnail: /img/blog/lorem-ipsum.jpg
 banner: /img/blog/featured/lorem.jpg
-shortdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante. Mauris eleifend, quam a vulputate dictum, massa quam dapibus leo, eget vulputate   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante. Mauris eleifend, quam a vulputate dictum, massa quam dapibus leo, eget vulputate orci purus ut lorem. In fringilla mi in ligula.  orci purus ut lorem. In fringilla mi in ligula."
-updatedDate: 2017-03-09T11:52:41.466Z
+shortdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante. Mauris eleifend, quam a vulputate dictum, massa quam dapibus leo, eget vulputate   Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+updatedDate: 2017-03-09T11:54:44.267Z
 cmsUserSlug: ""
-date: 2017-02-18 
+date: 2017-02-18T00:00:00.000Z
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante. Mauris eleifend, quam a vulputate dictum, massa quam dapibus leo, eget vulputate orci purus ut lorem. In fringilla mi in ligula. Pellentesque aliquam quam vel dolor. Nunc adipiscing. Sed quam odio, tempus ac, aliquam molestie, varius ac, tellus. Vestibulum ut nulla aliquam risus rutrum interdum. Pellentesque lorem. Curabitur sit amet erat quis risus feugiat viverra. Pellentesque augue justo, sagittis et, lacinia at, venenatis non, arcu. Nunc nec libero. In cursus dictum risus. Etiam tristique nisl a nulla. Ut a orci. Curabitur dolor nunc, egestas at, accumsan at, malesuada nec, magna.
