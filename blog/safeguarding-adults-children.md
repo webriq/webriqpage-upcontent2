@@ -4,8 +4,8 @@ author: Lorem Ipsum
 leadtag: Blog
 thumbnail: /img/blog/lorem.jpg
 banner: /img/blog/featured/lorem.jpg
-shortdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante. Mauris eleifend, quam a vulputate dictum, massa quam dapibus leo,   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante. Mauris eleifend, quam a vulputate dictum, massa quam dapibus leo, eget vulputate orci purus ut lorem. In fringilla mi in ligula.\n"
-updatedDate: 2017-03-09T11:48:52.338Z
+shortdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante. Mauris eleifend, quam a vulputate dictum, massa quam dapibus leo,   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante.\n"
+updatedDate: 2017-03-09T11:50:24.794Z
 cmsUserSlug: ""
 date: 2017-02-18T00:00:00.000Z
 ---
