@@ -91,13 +91,14 @@
 	margin-top:40px;
 }
 #services2 .col-md-3:hover img{
-	border:solid #fff 1px;
+	border: solid #f9c63a 1px;
+	background: #ffd639;
 }
 #services2 .col-md-3 img{
 	border: solid 1px #3a3a3a;
 	padding:30px 25px;
 	border-radius:50%;
-	background: #ffc837;
+	background: #3a3a3a;
 }
 #services2 .col-md-3 .detservc h4{
 	font-size:16px; !important
@@ -391,7 +392,7 @@
 
 @media only screen and (max-width:1024px) {
 	#services2 {
-		background: #1e6798 url(../img/services-bg-hendry.jpg) no-repeat !important;
+		background: #fff;
 		padding: 50px 0px 0px;
 		text-align: center;
 		background-size:100% 100% !important;
@@ -589,7 +590,7 @@
 		background-position:initial !important;
 	}
 	#services2 {
-		background: url(/img/services-bg-hendry.jpg) no-repeat center!important;
+		background: #fff;
 		padding: 50px 0 50px;
 		background-size: 360% 100%!important;
 	}
